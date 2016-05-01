@@ -61,6 +61,17 @@ UnblockGA supports three options, which can be passed as arguments to the `.load
 | `logs` | Option to enable/disable logs on the [Developer Tools](http://developer.chrome.com/devtools) console. | boolean, `false` |
 | `scriptLocation`<a name="scriptLocation"></a> | Set the location of the PHP script if it's placed elsewhere (other than the webroot). This is a vital option to consider if you're using a MVC framework like [CakePHP](http://cakephp.org) or [CodeIgniter](https://www.codeigniter.com). | string, `unblockga.php` |
 
+#### Examples
+
+Using all the options:
+```javascript
+UnblockGA.load({
+  trackingId: 'UA-XXXXXX-X',
+  logs: true,
+  scriptLocation: 'includes/unblockga.php'
+}); 
+```
+
 ## License<a name="license"></a>
 
 ```
