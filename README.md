@@ -21,5 +21,6 @@ Place this code on the webroot of your server:
     });
 </script>
 ```
-*Note replace `UA-XXXXXX-X` with your own Google Analytics Tracking ID.*
+*Note: Replace `UA-XXXXXX-X` with your own [Google Analytics Tracking ID](https://support.google.com/analytics/answer/1032385?hl=en).*
+
 Assuming you've put the `unblockga.min.js` and `unblockga.php` in the same directory as your `index.html` or `index.php`.
