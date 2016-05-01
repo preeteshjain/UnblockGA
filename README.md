@@ -5,11 +5,11 @@ We all know that majority of Ad blockers today, block the [Google Analytics](htt
 According to [this post](https://www.quantable.com/analytics/how-many-users-block-google-analytics), these are some of the top blockers:
 
 | App / Extension | Platform | User Base (Dec 2015) | Blocks GA by default? |
-|--------------------------|------------------|------------------------------------------------------|----------------------------------------------|
-| AdBlock Plus | Cross-platform | 21M users (Firefox)40M+ (Chrome)300M total downloads | No, but easily added(one click post-install) |
+|--------------------------|------------------|--------------------------------------------------------|----------------------------------------------|
+| AdBlock Plus | Cross-platform | 21M users (Firefox) 40M+ (Chrome) 300M total downloads | No, but easily added(one click post-install) |
 | Adblock | primarily Chrome | 40M+ (Chrome) | No, but easily added. |
-|  uBlock Origin | Cross-platform | 630k users (Firefox)2.5M users (Chrome) | Yes |
-| Ghostery | Cross-platform | 2.3M users (Chrome)1.5M users (Firefox) | No, but easily added. |
+| uBlock Origin | Cross-platform | 630k users (Firefox) 2.5M users (Chrome) | Yes |
+| Ghostery | Cross-platform | 2.3M users (Chrome) 1.5M users (Firefox) | No, but easily added. |
 | Purify | iOS | unknown, top 10 at launch* | Yes |
 | Adblock Browser | Android | 1-5M installs | Yes |
 | Google Analytics Opt-Out | Chrome | 720k users | Yes |
