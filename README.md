@@ -1,24 +1,24 @@
 # UnblockGA - Google Analytics Unblocker
 
-We all know that majority of Ad blockers today, block the [Google Analytics](http://analytics.google.com) tracking, some by default and some by just enabling a simple setting. This results in uncounted views and stats from the ad-block users. More than 10 million websites rely on Google Analytics to collect the analytical data of their users.
+We all know that majority of Adblockers today, block [Google Analytics](http://analytics.google.com). Some by default and some by just enabling a setting. More than 10 million websites rely on Google Analytics to collect the analytical data of their users. One can imagine what would happen if it's blocked.
 
 According to [this post](https://www.quantable.com/analytics/how-many-users-block-google-analytics), these are some of the top blockers:
 
 | App / Extension | Platform | User Base (Dec 2015) | Blocks GA by default? |
 |--------------------------|------------------|------------------------------------------------------|----------------------------------------------|
-| AdBlock Plus | Cross-platform | 21M users (Firefox)40M+ (Chrome)300M total downloads | No, but easily added(one click post-install) |
+| AdBlock Plus | Cross-platform | 21M users (Firefox) 40M+ (Chrome) 300M total downloads | No, but easily added (one click post-install) |
 | Adblock | primarily Chrome | 40M+ (Chrome) | No, but easily added. |
-|  uBlock Origin | Cross-platform | 630k users (Firefox)2.5M users (Chrome) | Yes |
-| Ghostery | Cross-platform | 2.3M users (Chrome)1.5M users (Firefox) | No, but easily added. |
+|  uBlock Origin | Cross-platform | 630k users (Firefox) 2.5M users (Chrome) | Yes |
+| Ghostery | Cross-platform | 2.3M users (Chrome) 1.5M users (Firefox) | No, but easily added. |
 | Purify | iOS | unknown, top 10 at launch* | Yes |
 | Adblock Browser | Android | 1-5M installs | Yes |
 | Google Analytics Opt-Out | Chrome | 720k users | Yes |
 
-UnblockGA is here to help these websites by allowing them to collect the data from adblock users.
+UnblockGA offers a simple, easy-to-implement workaround against these adblockers.
 
 ## Requirements<a name="requirements"></a>
 
-UnblockGA is built with vanilla JavaScript and PHP. So jQuery is **not** required to run UnblockGA. However, on the server side of the equation, minimum version of PHP required is *4.0.2* which supports the [cURL library](https://curl.haxx.se) and it's functions. So basically, your server should be running PHP version 4.0.2 or higher.
+UnblockGA is built with vanilla JavaScript and PHP. So [jQuery](http://jquery.com) is **not** required to run UnblockGA. However, on the server side of the equation, minimum version of PHP required is *4.0.2* which supports the [cURL library](https://curl.haxx.se) and it's functions. So basically, your server should be running PHP version 4.0.2 or higher.
 
 ## Download<a name="download"></a>
 
