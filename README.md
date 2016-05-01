@@ -43,7 +43,7 @@ Assuming you've put `unblockga.min.js` and `unblockga.php` in the same directory
 UnblockGA supports three options, which can be passed as arguments to the `.load()` function. These options are as follows:
 
 | Option | Description | Default Value |
-|-|-|-|
+|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | `trackingId` | Sets the [Google Analytics Tracking ID](https://support.google.com/analytics/answer/1032385?hl=en). | *none* (throws a warning in console if logs are enabled) |
 | `logs` | Option to enable/disable logs on the [Developer Tools](http://developer.chrome.com/devtools) console. | boolean, `false` |
 | `scriptLocation` | Set the location of the PHP script if it's placed elsewhere (other than the webroot). This is a vital option to consider if you're using a MVC framework like [CakePHP](http://cakephp.org) or [CodeIgniter](https://www.codeigniter.com). | string, `unblockga.php` |
