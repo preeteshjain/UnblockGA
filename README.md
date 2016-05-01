@@ -5,22 +5,35 @@ We all know that majority of Ad blockers today, block the [Google Analytics](htt
 According to [this post](https://www.quantable.com/analytics/how-many-users-block-google-analytics), these are some of the top blockers:
 
 | App / Extension | Platform | User Base (Dec 2015) | Blocks GA by default? |
-|--------------------------|------------------|--------------------------------------------------------|----------------------------------------------|
-| AdBlock Plus | Cross-platform | 21M users (Firefox) 40M+ (Chrome) 300M total downloads | No, but easily added(one click post-install) |
+|--------------------------|------------------|------------------------------------------------------|----------------------------------------------|
+| AdBlock Plus | Cross-platform | 21M users (Firefox)40M+ (Chrome)300M total downloads | No, but easily added(one click post-install) |
 | Adblock | primarily Chrome | 40M+ (Chrome) | No, but easily added. |
-| uBlock Origin | Cross-platform | 630k users (Firefox) 2.5M users (Chrome) | Yes |
-| Ghostery | Cross-platform | 2.3M users (Chrome) 1.5M users (Firefox) | No, but easily added. |
+|  uBlock Origin | Cross-platform | 630k users (Firefox)2.5M users (Chrome) | Yes |
+| Ghostery | Cross-platform | 2.3M users (Chrome)1.5M users (Firefox) | No, but easily added. |
 | Purify | iOS | unknown, top 10 at launch* | Yes |
 | Adblock Browser | Android | 1-5M installs | Yes |
 | Google Analytics Opt-Out | Chrome | 720k users | Yes |
 
 UnblockGA is here to help these websites by allowing them to collect the data from adblock users.
 
-## Requirements
+## Download<a name="download"></a>
+
+[Download the files](https://github.com/preeteshjain/UnblockGA/archive/v1.0.0.zip) and place them like so:
+
+```
+webroot/
+├── index.html
+├── unblockga.min.js
+└── unblockga.php
+```
+
+If you're using a MVC framework, and can't directly send request to a PHP script (without proper routing) use the [`scriptLocation`](#scriptLocation) option.
+
+## Requirements<a name="requirements"></a>
 
 UnblockGA is built with vanilla JavaScript and PHP. So jQuery is **not** required to run UnblockGA. However, on the server side of the equation, minimum version of PHP required is *4.0.2* which supports the [cURL library](https://curl.haxx.se) and it's functions. So basically, your server should be running PHP version 4.0.2 or higher.
 
-## Usage
+## Usage<a name="usage"></a>
 
 After downloading the two UnblockGA files, `unblockga.js` (or `unblockga.min.js`) and `unblockga.php`, follow these instructions:
 
@@ -38,7 +51,7 @@ After downloading the two UnblockGA files, `unblockga.js` (or `unblockga.min.js`
 
 Assuming you've put `unblockga.min.js` and `unblockga.php` in the same directory as your `index.html` or `index.php`.
 
-## Options
+## Options<a name="options"></a>
 
 UnblockGA supports three options, which can be passed as arguments to the `.load()` function. These options are as follows:
 
@@ -46,9 +59,9 @@ UnblockGA supports three options, which can be passed as arguments to the `.load
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | `trackingId` | Sets the [Google Analytics Tracking ID](https://support.google.com/analytics/answer/1032385?hl=en). | *none* (throws a warning in console if logs are enabled) |
 | `logs` | Option to enable/disable logs on the [Developer Tools](http://developer.chrome.com/devtools) console. | boolean, `false` |
-| `scriptLocation` | Set the location of the PHP script if it's placed elsewhere (other than the webroot). This is a vital option to consider if you're using a MVC framework like [CakePHP](http://cakephp.org) or [CodeIgniter](https://www.codeigniter.com). | string, `unblockga.php` |
+| `scriptLocation`<a name="scriptLocation"></a> | Set the location of the PHP script if it's placed elsewhere (other than the webroot). This is a vital option to consider if you're using a MVC framework like [CakePHP](http://cakephp.org) or [CodeIgniter](https://www.codeigniter.com). | string, `unblockga.php` |
 
-## License
+## License<a name="license"></a>
 
 ```
 MIT License
