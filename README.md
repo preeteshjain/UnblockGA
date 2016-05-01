@@ -16,6 +16,10 @@ According to [this post](https://www.quantable.com/analytics/how-many-users-bloc
 
 UnblockGA is here to help these websites by allowing them to collect the data from adblock users.
 
+## Requirements<a name="requirements"></a>
+
+UnblockGA is built with vanilla JavaScript and PHP. So jQuery is **not** required to run UnblockGA. However, on the server side of the equation, minimum version of PHP required is *4.0.2* which supports the [cURL library](https://curl.haxx.se) and it's functions. So basically, your server should be running PHP version 4.0.2 or higher.
+
 ## Download<a name="download"></a>
 
 [Download the files](https://github.com/preeteshjain/UnblockGA/archive/v1.0.0.zip) and place them like so:
@@ -28,10 +32,6 @@ webroot/
 ```
 
 If you're using a MVC framework, and can't directly send request to a PHP script (without proper routing) use the [`scriptLocation`](#scriptLocation) option.
-
-## Requirements<a name="requirements"></a>
-
-UnblockGA is built with vanilla JavaScript and PHP. So jQuery is **not** required to run UnblockGA. However, on the server side of the equation, minimum version of PHP required is *4.0.2* which supports the [cURL library](https://curl.haxx.se) and it's functions. So basically, your server should be running PHP version 4.0.2 or higher.
 
 ## Usage<a name="usage"></a>
 
