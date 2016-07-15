@@ -1,4 +1,4 @@
-![Banner](http://i.imgur.com/XhAExUZ.png)
+![Banner](http://i.imgur.com/Kq06UQI.png)
 
 # UnblockGA - Google Analytics Unblocker
 
