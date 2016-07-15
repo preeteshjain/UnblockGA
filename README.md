@@ -1,3 +1,5 @@
+![Banner](http://i.imgur.com/XhAExUZ.png)
+
 # UnblockGA - Google Analytics Unblocker
 
 We all know that majority of Adblockers today, block [Google Analytics](http://analytics.google.com). Some by default and some by just enabling a setting. More than 10 million websites rely on Google Analytics to collect the analytical data of their users. One can imagine what would happen if it's blocked.
